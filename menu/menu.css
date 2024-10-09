@@ -1,0 +1,20 @@
+*{
+    font-family: "Edu AU VIC WA NT Guides", "cursive";
+       font-weight: 600;
+       
+}
+.sticky-nav{
+
+    position: fixed;
+    top: 1 ;
+    left: 400px;
+    background-color: none;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100vh;
+}
+.sticky-nav div a{
+    color: rgb(152, 0, 0);
+    z-index: 1;
+}
