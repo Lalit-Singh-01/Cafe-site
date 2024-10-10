@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="icon" href="../assets/coffee-cup-logo.jpg">
     <title>Caring Cafe</title>
     <link rel="stylesheet" href="cafe.css">
@@ -15,10 +17,14 @@
 <body>
     <header>
         <div class="sticky-nav">
-            <div class="home" class="active"><a href="cafe.html">Home</a></div>
-            <div class="menu" class="active"> <a href="../menu/menu.html">Menu</a></div>
-            <div class="story" class="active"><a href="../story/story.html">Our Story</a></div>
-            <div class="contact" class="active"> <a href="../contact/contact.html">Contact us</a></div>  
+            <div  id="logo"><img src="/assets/coffee-cup-logo.jpg" alt=""></div>
+            <div class="links">
+                <div class="home" id="nav" ><a class="active" href="../home/cafe.html">Home</a></div>
+                <div class="menu" id="nav"> <a class="active" href="../menu/menu.html">Menu</a></div>
+                <div class="story" id="nav"><a class="active" href="../story/story.html">Our Story</a></div>
+                <div class="contact" id="nav"> <a class="active" href="../contact/contact.html">Contact us</a></div> 
+            </div>
+            <div class="account"><button><i class="fa-regular fa-user"></i></button></div>
         </div>
     </header>
     <body>
@@ -29,29 +35,74 @@
         </div> 
     </body>
     <footer>
-        <p>some popular items from our website</p>
         <h1>Cafe features</h2>
-        <div class="features">
-            <h2>Cozy Seating:</h2>
-            <p>A mix of seating options, including communal tables, cozy nooks, and comfortable armchairs, encourages social interaction and relaxation.</p>
-            <img src="/assets/cozyseat.jpg" alt="">
+        <div class="features" id="cozyseat">
+            <div class="info">
+                <div class="heading"><h2>Cozy Seating:</h2></div>
+                <p>A mix of seating options, including communal tables, cozy nooks, and comfortable armchairs, encourages social interaction and relaxation.</p>
+            </div>
+            <div class="picture">
+                <img src="/assets/cozyseat.jpg" alt="">
+            </div>   
         </div>
         <div class="features">
-            <h2>High-Quality Coffee:</h2>
+            <div class="picture" id="pic">
+                <img src="/assets/back img.webp" alt=""> 
+            </div>
+            <div class="info">
+                <div class="heading"><h2>High-Quality Coffee:</h2></div> 
             <p>Emphasis on artisanal coffee with a variety of brewing methods (like pour-over or cold brew) and specialty beans.</p>
-            <img src="/assets/back img.webp" alt=""> 
+            </div>
         </div>
         <div class="features">
-            <h2>Unique beverages and snacks:</h2>
-            <p> In addition to coffee, offering unique teas, smoothies, and artisanal pastries or light bites can draw in customers looking for variety.</p>
-            <img src="/assets/mitem3.jpg" alt="" style="height: 400px; width: 40%;" >
-            <img id="snacks" src="/assets/hitem2.jpeg" alt="">
+            <div class="info">
+                <div class="heading"><h2>Unique beverages and snacks:</h2></div>   
+                <p> In addition to coffee, offering unique teas, smoothies, and artisanal pastries or light bites can draw in customers looking for variety.</p>
+            </div>
+            <div class="picture">
+                <img src="/assets/mitem3.jpg" alt="" >
+            </div>
         </div>
+        <div class="features">
+            <div class="picture">
+                <img src="/assets/hitem2.jpeg" alt="">
+            </div>
+            <div class="info">
+                <div class="heading"><h2>Menu Variety:</h2></div>
+                <p>Offering a diverse menu that includes specialty coffee, teas, fresh pastries, and light meals caters to various tastes. Seasonal specials or unique items can keep the menu exciting and encourage repeat visits.</p>
+            </div>
+        </div>
+       
         <div class="line"></div>
         <div class="line"></div>
-        <div class="line"></div>
-        <div class="next"><button><a href="/menu/menu.html">See full menu</a> </button></div>
+        <div class="next"><a href="/menu/menu.html">See full menu</a></div>
+        <br>
     </footer>
+    <div class="footer1">
+        <div class="contacts">
+            <div class="box">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h2>Address</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-envelope"></i>
+                <h2>E-mail</h2>
+                <p>Caringcafe@gmail.com</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-phone"></i>
+                <h2>Call us</h2>
+                <p>+91 38376 06284</p>
+            </div>
+            <div class="box">
+                <i class="fa-regular fa-clock"></i>
+                <h2>Opening hours</h2>
+                <p>Monday - Friday: 8:00 - 24:00
+                    Saturday: 8:00 - 23:00</p>
+            </div>
+        </div>
+    </div>
 
     
 </body>

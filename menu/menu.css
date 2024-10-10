@@ -3,18 +3,84 @@
        font-weight: 600;
        
 }
+#logo img{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+}
+
 .sticky-nav{
 
     position: fixed;
-    top: 1 ;
+    top: 5px ;
     left: 400px;
-    background-color: none;
+    background-color: skyblue;
     z-index: 1;
     display: flex;
-    justify-content: space-around;
-    width: 100vh;
+    align-items:center;
+    width: 100;
+    border-radius: 5px;
+    box-shadow: 3px 0px 10px black;
+}
+.links{
+    display: flex;
+    margin: 0 90px 0 60px;
+}
+#nav{
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .sticky-nav div a{
-    color: rgb(152, 0, 0);
+    color: white;
     z-index: 1;
+}
+#nav:hover{
+    font-size: 20px;
+    transition: 5s ease-out 1s 1 left;
+    transition-duration: 1.5s;
+}
+.footer1{
+    /* background-color: #e68541; */
+    background-color: rgba(45,39,34,255);
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding: 80px 0px;
+    font-family:  "Poppins", sans-serif;
+}
+.box{
+    width: 280.75px;
+    height: 223px;
+    padding: 15px 0 15px 0;
+    margin: 0px 12px 0px 12px;
+}
+.box i{
+    color: #e68541;
+    font-size: 35px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+}
+.box h2{
+    color: white;
+    font-weight: 400;
+}
+.box p{
+    color: whitesmoke;
+    opacity: 0.8;
+}
+.info p{
+    font-size: 20px;
+}
+.account i{
+    font-size: 20px;
+    color: white;
+    
+}
+.account button{
+    border-radius: 50%;
+    background-color: rgb(87, 171, 204);
 }
