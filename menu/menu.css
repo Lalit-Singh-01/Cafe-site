@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgb(177, 177, 132);
+    background-color: #e4ccc4;
 }
 #logo img{
     margin-left: 10px;
@@ -17,6 +18,7 @@ body{
     top: 5px ;
     left: 400px;
     background-color: rgba(187, 139, 17, 0.476);
+    background-color: #c8b4ac;
     z-index: 1;
     display: flex;
     align-items:center;
@@ -88,7 +90,7 @@ body{
 }
 .card {
     width: 250px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 16px;
     text-align: center;
     position: relative;
@@ -96,24 +98,34 @@ body{
     margin: 0 10px 10px 10px;
     /* background-color: green; */
     border-radius: 20px;
+    transition:  transform 0.5s ease;
 }
 
 .description {
     display: none; 
     margin-top: 5px;
+    transition: display 0.5s ease;
+    
+}
+.card:hover{
+    transform: scale(1.05);
 }
 
 .card:hover .description {
-    display: block; 
+    display: block;
 }
-    /* background-color: red; */
+.card:hover .heading{
+    color: rgb(139, 36, 36);
+    transition: color 0.5s ease
+} 
 
 .card-holder{
     display: flex;
     flex-wrap: wrap;
     margin: 30px;
     padding: 10px;
-    /* background-color: yellow; */
+    background-color: rgb(226, 226, 226);
+    background-color: #d0b4a4;
 }
 .item{
     width: 100%;
