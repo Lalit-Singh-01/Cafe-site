@@ -32,6 +32,9 @@ body{
     padding-left: 20px;
     padding-right: 20px;
 }
+.active{
+    text-decoration: none;
+}
 .sticky-nav div a{
     color: white;
     z-index: 1;
@@ -65,14 +68,21 @@ body{
 }
 .icons i{
     font-size: 30px;
-
+    margin: 20px;
+    color: rgb(133, 133, 133);
 }
+.icons i:hover{
+    color: black;
+    transform: scale(1.1);
+}
+
 h1{
     font-size: 60px;
     color: rgb(139, 36, 36);
 }
 .details{
     margin-bottom: 10px;
+    font-size: 20px;
 }
 .footer1{
     /* background-color: #e68541; */
