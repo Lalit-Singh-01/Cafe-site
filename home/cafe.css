@@ -9,7 +9,7 @@
     background: linear-gradient(90deg, rgba(160,239,255,0.7427564775910365) 0%, rgba(253,218,187,1) 100%, rgba(2,0,36,1) 100%); */
     /* background: rgb(160,239,255);
     background: linear-gradient(90deg, rgba(160,239,255,0.7427564775910365) 0%, rgba(253,218,187,1) 96%, rgba(17,17,17,0.2945772058823529) 100%); */
-    background-color: white;
+    background-color: #f5f4f4;
     }
     #logo img{
         margin-left: 10px;
@@ -136,6 +136,7 @@
         width: fit-content;
         width: 437.5px;
         height: 350px;
+        border-radius: 20px;
     }
     .info{
         height: 350px;
