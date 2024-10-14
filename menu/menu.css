@@ -127,7 +127,7 @@ body{
     flex-wrap: wrap;
     margin: 30px;
     padding: 10px;
-    background-color: #d0b4a4;
+    /* background-color: #d0b4a4; */
     border-radius: 20px;
 }
 .item{
@@ -144,6 +144,7 @@ body{
     to{opacity:0}
 }
 .card{
+    background-color: #d0b4a4;
     animation: fade-out linear;
     animation-timeline: view();
     animation-range: exit -100px;

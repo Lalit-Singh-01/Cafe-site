@@ -133,7 +133,7 @@
     }
     .picture img{
         max-height:100%;
-        width: fit-content;
+        /* width: fit-content; */
         width: 437.5px;
         height: 350px;
         border-radius: 20px;
