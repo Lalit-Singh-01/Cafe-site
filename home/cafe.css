@@ -108,7 +108,7 @@
     }
     #nav:hover{
         font-size: 20px;
-        transition: 5s ease-out 1s 1 left;
+        transition: ease-out 1s 1 left;
         transition-duration: 1.5s;
     }
     .img img{
@@ -217,7 +217,7 @@
         85%,100%{opacity: 0; scale: 3;}
     }
     .img img{
-        transform-origin: top;
+        /* transform-origin: top; */
         animation: header-image-animation linear ;
         animation-timeline: view();
         animation-range: exit;

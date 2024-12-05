@@ -112,6 +112,7 @@ body{
 }
 .card:hover{
     transform: scale(1.05);
+    background-color: #cb9576a7
 }
 
 .card:hover .description {
@@ -119,7 +120,7 @@ body{
 }
 .card:hover .heading{
     color: rgb(139, 36, 36);
-    transition: color 0.5s ease
+    transition: color 0.5s ease;
 } 
 
 .card-holder{
